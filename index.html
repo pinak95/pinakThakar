@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wade Wilson</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./css/default.css">
+
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+</head>
+<body>
+	
+
+	<nav class="nav-wrapper">
+
+					
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+		
+
+		<ul id="navigation">
+			<li><a href="index.html#home">Home</a></li>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#contact">Contact</a></li>                        
+		</ul>
+	</nav>
+	<div class="progress-container">
+		<span class="progress-bar" id="progress-bar"></span>
+	</div>
+	
+		
+	  
+	<section class="s1">
+		<div class="main-container">
+			
+			<a name="home"></a>
+			<div class="greeting-wrapper">
+				<h1>Hello! I'm Wade aka a <span class="typing"></span></h1>
+			</div>
+
+
+			<div class="intro-wrapper">
+
+				<div class="left-column">
+					<img id="profile_pic" src="images/dp.jpg">
+					<h4 style="text-align: center;line-height: 0;">Personalize Theme</h4>
+
+					<div id="theme-options-wrapper">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+
+					<p id="settings-note">*Theme settings will be saved for<br>your next vist*</p>
+				</div>
+
+				<div class="right-column">
+
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h2>What I Do</h2>
+							<p>I am a computer science student and a tech enthusiast who is exploring this big world of tech.</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="s2">
+		<div class="main-container">
+			<a name="about"></a>
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h3>More about me</h3>
+					
+					<p>I try to build projects just to tickle my brain and love learning about new technologies while I try to make them.</p>
+
+					<p>While I keep busy learning new things, I teach high-school students Mathematics and programming so that they can really see what computers can do instead of just playing games on them.</p>
+
+					<p><a target="_blank" href="resume.pdf">Download Resume</a></p>
+
+					<hr>
+
+					<h3>Things I learned so far:</h3>
+
+					<div id="skills">
+						<ul>
+							<li>Python</li>
+							<li>React</li>
+							<li>JavaScript</li>
+						</ul>
+
+						<ul>
+							<li>Java</li>
+							<li>C++</li>
+							<li>HTML/CSS</li>
+						</ul>
+
+						<ul>
+							<li>Solana Program Library</li>
+							<li>Rust</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="social-links">
+					<img id="social_img" src="images/SOCIAL IMAGE.png">
+					<h2>Find me on Youtube</h2>
+					<a target="_blank" href="https://www.youtube.com/c/LeanDiabetic">YouTube: @lean_diabetic</a>
+				</div>
+				
+			</div>
+
+		</div>
+	</section>
+
+	<section class="s1">
+		<div class="main-container">
+			<a name="projects"></a>
+			<h2 style="text-align: center;">Some of my recent projects</h2>
+			
+			<div class="post-wrapper">
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/DP TOKEN.png">
+						<div class="post-preview">
+							<h5 class="post-title">DP TOKEN</h5>
+							<p class="post-intro">A token I created using the solana blockchain.</p>
+							<a target= "_blank" href="https://solscan.io/token/6BiCMWFN32wQVGqcr9mDiLjerKhitryuatvhxNTYBdfD?cluster=devnet#txs">Check it out...</a>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</section>
+
+	<section class="s2">
+		<div class="main-container">
+			<a href=""></a>
+			<a name="contact"></a>
+			<h2 style="text-align: center;">Get In Touch</h2>
+
+			<form id="contact-form">
+				
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+		</div>
+	</section> 
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
