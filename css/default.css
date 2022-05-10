@@ -246,7 +246,6 @@ h5 { font-size: 16px;}
 	width: 30px;
 	background-color: black;
 	border-radius: 50%;
-
 	margin: 5px;
 	border:2px solid var(--themeDotBorder);
 
@@ -263,24 +262,33 @@ h5 { font-size: 16px;}
 
 #light-mode{
 	background-color: #fff;
+	position: absolute;
+	margin-right: 125px;
 }
 
 #blue-mode{
 	background-color: #192734;
+	position: absolute;
+	margin-right: 45px;
 }
 
 #green-mode{
 	background-color: #78866b;
+	position: absolute;
+	margin-left: 45px;
 }
 
 #purple-mode{
 	background-color: #7E4C74;
+	position: absolute;
+	margin-left: 130px;
 }
 
 #settings-note{
 	font-size: 12px;
 	font-style: italic;
 	text-align: center;
+	margin-top: 50px;
 }
 
 .right-column{
