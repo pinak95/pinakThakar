@@ -8,7 +8,7 @@ function myFunction() {
 }
 
 var typed = new Typed(".typing", {
-	strings: ["Developer", "Designer", "Freelancer", "Coder"],
+	strings: ["Developer", "Designer"],
 	typeSpeed: 100,
 	backSpeed: 50,
 	loop: true
